@@ -2135,6 +2135,18 @@
             "title": "Géographie"
           },
           {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "Population autochtone hors réserve",
+                ""
+              ]
+            },
+            "title": "Caractéristiques de la population"
+          },
+          {
             "name": "data.Educational attainment level",
             "type": "string",
             "constraints": {
@@ -2143,6 +2155,7 @@
                 "Enseignement tertiaire de cycle court",
                 "Baccalauréat",
                 "Maîtrise ou doctorat",
+                "Université",
                 ""
               ]
             },

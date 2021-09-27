@@ -2140,7 +2140,8 @@
                 "Bachelor's level",
                 "Master's or Doctoral level",
                 "Short-cycle tertiary",
-                "Tertiary education"
+                "Tertiary education",
+                "University"
               ]
             },
             "title": "Educational attainment level"
@@ -2168,6 +2169,18 @@
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Off-reserve Indigenous population",
+                "Total population"
+              ]
+            },
+            "title": "Population characteristics"
           },
           {
             "name": "data.Sex",
