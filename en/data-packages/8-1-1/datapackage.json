@@ -59,6 +59,7 @@
               "enum": [
                 "",
                 "Alberta",
+                "Atlantic region",
                 "British Columbia",
                 "Canada",
                 "Manitoba",
@@ -75,6 +76,22 @@
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "data.Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Immigrants, landed 5 or less years earlier",
+                "Immigrants, landed more than 10 years earlier",
+                "Immigrants, landed more than 5 to 10 years earlier",
+                "Indigenous population",
+                "Landed immigrants",
+                "Total population"
+              ]
+            },
+            "title": "Population"
           },
           {
             "name": "data.Sex",

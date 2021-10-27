@@ -34,6 +34,7 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Région de l'Atlantique",
                 ""
               ]
             },
@@ -83,6 +84,22 @@
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "data.Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "Population autochtone",
+                "Immigrants reçus",
+                "Immigrants reçus 5 ans et moins auparavant",
+                "Immigrants reçus plus de 5 à 10 ans auparavant",
+                "Immigrants reçus plus de 10 ans auparavant",
+                ""
+              ]
+            },
+            "title": "Population"
           },
           {
             "name": "Value",

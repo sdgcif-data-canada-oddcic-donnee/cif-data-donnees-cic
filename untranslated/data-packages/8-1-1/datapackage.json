@@ -33,6 +33,7 @@
                 "data.Yukon",
                 "data.Northwest Territories",
                 "data.Nunavut",
+                "data.Atlantic region",
                 ""
               ]
             }
@@ -76,6 +77,21 @@
                 "data.65 to 69 years",
                 "data.70 years and over",
                 "data.15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total population",
+                "data.Indigenous population",
+                "data.Landed immigrants",
+                "data.Immigrants, landed 5 or less years earlier",
+                "data.Immigrants, landed more than 5 to 10 years earlier",
+                "data.Immigrants, landed more than 10 years earlier",
                 ""
               ]
             }
