@@ -11,6 +11,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -50,18 +55,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Assault level 1",
-                "Assault level 2 weapon or bodily harm",
-                "Assault level 3 aggravated",
+                "Assault, level 1",
+                "Assault, level 2, weapon or bodily harm",
+                "Assault, level 3, aggravated",
                 "Attempted murder",
                 "Homicide",
-                "Sexual assault level 1",
-                "Sexual assault level 2 weapon or bodily harm",
-                "Sexual assault level 3 aggravated",
+                "Sexual assault, level 1",
+                "Sexual assault, level 2, weapon or bodily harm",
+                "Sexual assault, level 3, aggravated",
                 "Total other violations causing death",
                 "Total other violent violations",
                 "Total robbery",
                 "Total sexual violations against children",
+                "Total, all violations",
                 "Uttering threats"
               ]
             },

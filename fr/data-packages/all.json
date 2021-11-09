@@ -678,6 +678,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total des infractions",
                 "Homicide",
                 "Total des autres infractions entraînant la mort",
                 "Tentative de meurtre",
@@ -695,6 +696,11 @@
               ]
             },
             "title": "Infractions"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
