@@ -21,7 +21,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Age",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -34,7 +34,7 @@
                 "Total, 12 years and over"
               ]
             },
-            "title": "Age"
+            "title": "Age group"
           },
           {
             "name": "data.Geography",
