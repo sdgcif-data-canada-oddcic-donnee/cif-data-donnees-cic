@@ -42,7 +42,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total 15 to 29 years",
+                "data.Total, 15 to 29 years",
                 "data.15 to 19 years",
                 "data.15 to 24 years",
                 "data.18 to 24 years",
@@ -63,6 +63,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

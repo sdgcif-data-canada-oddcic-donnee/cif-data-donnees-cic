@@ -44,7 +44,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total 15 à 29 ans",
+                "Total, 15 à 29 ans",
                 "15 à 19 ans",
                 "15 à 24 ans",
                 "18 à 24 ans",
@@ -67,6 +67,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
