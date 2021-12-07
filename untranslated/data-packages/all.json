@@ -4118,6 +4118,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
                 "data.British Columbia",
                 "data.Alberta",
                 "data.Saskatchewan",
@@ -4131,7 +4132,6 @@
                 "data.Yukon",
                 "data.Northwest Territories",
                 "data.Nunavut",
-                "data.Canada",
                 ""
               ]
             }
@@ -4141,9 +4141,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Major roads and highways",
                 "data.Urban centres",
                 "data.Rural communities",
+                "data.Major roads and highways",
                 ""
               ]
             }

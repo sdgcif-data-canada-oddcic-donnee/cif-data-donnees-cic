@@ -4410,6 +4410,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Colombie-Britannique",
                 "Alberta",
                 "Saskatchewan",
@@ -4423,7 +4424,6 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
-                "Canada",
                 ""
               ]
             },
@@ -4434,9 +4434,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Principales routes et autoroutes",
                 "Régions urbaines",
                 "Communautés rurales",
+                "Principales routes et autoroutes",
                 ""
               ]
             },
