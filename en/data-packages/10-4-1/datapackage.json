@@ -11,6 +11,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -66,7 +71,9 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -76,7 +83,8 @@
                 "Saskatchewan",
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
-                "Winnipeg, Manitoba"
+                "Winnipeg, Manitoba",
+                "Yukon"
               ]
             },
             "title": "Geography"

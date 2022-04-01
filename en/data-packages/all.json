@@ -21,17 +21,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Month",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "April"
-              ]
-            },
-            "title": "Month"
           }
         ]
       },
@@ -110,17 +99,16 @@
             "title": "Year"
           },
           {
-            "name": "data.Population and distribution trends consistent with objectives",
+            "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Mixed evidence",
-                "Not on track",
-                "On track"
+                "Do not show progress",
+                "Mixed evidence"
               ]
             },
-            "title": "Population and distribution trends consistent with objectives"
+            "title": "Progress"
           }
         ]
       },
@@ -410,6 +398,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
           {
             "name": "Value",
             "type": "number",
@@ -1822,7 +1815,7 @@
                 "65 to 74 years",
                 "75 to 84 years",
                 "85 and over",
-                "data.All ages"
+                "All ages"
               ]
             },
             "title": "Age at time of death"
@@ -2502,10 +2495,12 @@
                 "First Nations council members",
                 "Judges - Federal government public administration",
                 "Judges - Provincial and territorial public administration",
+                "data.Management occupations",
                 "Members of federal Cabinet",
                 "Members of national Parliament",
                 "Middle management occupations in retail and wholesale trade and customer services",
                 "Middle management occupations in trades - transportation - production and utilities",
+                "data.Middle management occupations in trades, transportation, production and utilities",
                 "Senior management occupations",
                 "Specialized middle management occupations"
               ]
@@ -3023,7 +3018,7 @@
                 "",
                 "Atlantic Ocean",
                 "Canada",
-                "Great Lakes and St. Lawrence River",
+                "data.Great Lakes and St. Lawrence River",
                 "Hudson Bay",
                 "Mackenzie River",
                 "Pacific Ocean"
@@ -3040,6 +3035,7 @@
                 "Agriculture",
                 "Forestry",
                 "Mining",
+                "data.Mixed Pressures",
                 "Mixed pressures",
                 "Populated",
                 "Total",
@@ -3058,7 +3054,8 @@
                 "Fair",
                 "Good",
                 "Marginal",
-                "Poor"
+                "Poor",
+                "Total"
               ]
             },
             "title": "Water quality"
@@ -3565,6 +3562,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -3620,7 +3622,9 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -3630,7 +3634,8 @@
                 "Saskatchewan",
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
-                "Winnipeg, Manitoba"
+                "Winnipeg, Manitoba",
+                "Yukon"
               ]
             },
             "title": "Geography"
@@ -4083,14 +4088,49 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All persons",
+                "Elderly females not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly persons not in an economic family",
+                "Non-elderly females not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in couples",
+                "Persons in economic families",
+                "data.Persons in elderly couples",
+                "data.Persons in elderly families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in non-elderly families",
+                "data.Persons in other elderly families",
+                "data.Persons in other non-elderly families",
+                "Persons not in an economic family"
+              ]
+            },
+            "title": "Economic family type"
           },
           {
             "name": "data.Geography",
@@ -4099,6 +4139,7 @@
               "enum": [
                 "",
                 "Alberta",
+                "Atlantic provinces",
                 "British Columbia",
                 "Canada",
                 "Manitoba",
@@ -4108,6 +4149,7 @@
                 "Nova Scotia",
                 "Nunavut",
                 "Ontario",
+                "Prairie provinces",
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
@@ -4122,30 +4164,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Food insecure marginal",
-                "Food insecure moderate and severe",
+                "Food insecure, marginal",
+                "Food insecure, moderate",
+                "Food insecure, moderate or severe",
+                "Food insecure, severe",
                 "Food secure"
               ]
             },
             "title": "Household food security status"
-          },
-          {
-            "name": "data.Living arrangement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Couple no children",
-                "Couple with child(ren) less than 18 years old",
-                "Female living alone",
-                "Female lone parent with child(ren) less than 18 years old",
-                "Male living alone",
-                "Male lone parent with child(ren) less than 18 years old",
-                "Other living arrangements",
-                "All living arrangements"
-              ]
-            },
-            "title": "Living arrangement"
           }
         ]
       },

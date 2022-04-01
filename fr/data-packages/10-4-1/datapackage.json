@@ -41,10 +41,18 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",

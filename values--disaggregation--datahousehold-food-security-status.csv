@@ -1,4 +1,6 @@
 Value,Disaggregation combinations using this value,Number of indicators
-data.Food insecure marginal,112,1
-data.Food insecure moderate and severe,112,1
-data.Food secure,112,1
+"data.Food insecure, marginal",260,1
+"data.Food insecure, moderate or severe",262,1
+"data.Food insecure, moderate",260,1
+"data.Food insecure, severe",260,1
+data.Food secure,260,1

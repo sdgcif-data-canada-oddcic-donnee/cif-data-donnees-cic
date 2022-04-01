@@ -1,1 +1,1 @@
-{"From":["data.Geography","data.Living arrangement"],"To":["data.Living arrangement","data.Household food security status"]}
+{"From":["data.Geography","data.Economic family type"],"To":["data.Economic family type","data.Household food security status"]}

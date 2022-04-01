@@ -18,17 +18,6 @@
             "title": "Année"
           },
           {
-            "name": "data.Month",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Avril",
-                ""
-              ]
-            },
-            "title": "Mois"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Valeur"
@@ -105,17 +94,16 @@
             "title": "Année"
           },
           {
-            "name": "data.Population and distribution trends consistent with objectives",
+            "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
-                "Oui",
                 "Preuves mitigées",
-                "Non",
+                "N'affichent pas de progrès",
                 ""
               ]
             },
-            "title": "Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs"
+            "title": "Progrès"
           },
           {
             "name": "Value",
@@ -441,6 +429,27 @@
             "title": "Géographie"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "data.Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "Population autochtone",
+                "Immigrants reçus",
+                "Immigrants reçus 5 ans et moins auparavant",
+                "Immigrants reçus plus de 5 à 10 ans auparavant",
+                "Immigrants reçus plus de 10 ans auparavant",
+                ""
+              ]
+            },
+            "title": "Population"
+          },
+          {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
@@ -484,22 +493,6 @@
               ]
             },
             "title": "Groupe d'âge"
-          },
-          {
-            "name": "data.Population",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Population totale",
-                "Population autochtone",
-                "Immigrants reçus",
-                "Immigrants reçus 5 ans et moins auparavant",
-                "Immigrants reçus plus de 5 à 10 ans auparavant",
-                "Immigrants reçus plus de 10 ans auparavant",
-                ""
-              ]
-            },
-            "title": "Population"
           },
           {
             "name": "Value",
@@ -1818,7 +1811,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All ages",
+                "Tous les âges",
                 "1 à 14 ans",
                 "15 à 24 ans",
                 "25 à 34 ans",
@@ -2502,6 +2495,8 @@
                 "Juges - administrations provinciales et territoriales",
                 "Chefs dans les communautés des Premières Nations",
                 "Membres de conseil des Premières Nations",
+                "data.Management occupations",
+                "data.Middle management occupations in trades, transportation, production and utilities",
                 ""
               ]
             },
@@ -3017,7 +3012,7 @@
               "enum": [
                 "Canada",
                 "Océan Atlantique",
-                "Grands Lacs et fleuve Saint-Laurent",
+                "data.Great Lakes and St. Lawrence River",
                 "Baie d'Hudson",
                 "Fleuve Mackenzie",
                 "Océan Pacifique",
@@ -3038,6 +3033,7 @@
                 "Pressions mixtes",
                 "Non aménagés",
                 "Total",
+                "data.Mixed Pressures",
                 ""
               ]
             },
@@ -3053,6 +3049,7 @@
                 "Satisfaisante",
                 "Douteuse",
                 "Mauvaise",
+                "Total",
                 ""
               ]
             },
@@ -3595,10 +3592,18 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",
@@ -4084,7 +4089,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -4093,12 +4098,14 @@
             "constraints": {
               "enum": [
                 "Canada",
+                "Provinces de l'Atlantique",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
                 "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
+                "Provinces des Prairies",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
@@ -4112,22 +4119,39 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Living arrangement",
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "data.Economic family type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes dispositions de vie",
-                "Femme vivant seule",
-                "Homme vivant seul",
-                "Couple sans enfant",
-                "Couple avec enfant(s) de moins de 18 ans",
-                "Mère monoparentale avec enfant(s) de moins de 18 ans",
-                "Père monoparental avec enfant(s) de moins de 18 ans",
-                "Autres dispositions de vie",
+                "Toutes les personnes",
+                "Personnes dans les familles économiques",
+                "data.Persons in elderly families",
+                "data.Persons in elderly couples",
+                "data.Persons in other elderly families",
+                "data.Persons in non-elderly families",
+                "data.Persons in couples",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in other non-elderly families",
+                "Personnes hors famille économique",
+                "Personnes âgées hors famille économique",
+                "Hommes âgés hors famille économique",
+                "Femmes âgées hors famille économique",
+                "Personnes non âgées hors famille économique",
+                "Hommes non âgés hors famille économique",
+                "Femmes non âgées hors famille économique",
                 ""
               ]
             },
-            "title": "Disposition de vie"
+            "title": "Type de famille économique"
           },
           {
             "name": "data.Household food security status",
@@ -4136,7 +4160,9 @@
               "enum": [
                 "Sécurité alimentaire",
                 "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée et grave",
+                "Insécurité alimentaire modérée",
+                "Insécurité alimentaire grave",
+                "Insécurité alimentaire modérée ou grave",
                 ""
               ]
             },

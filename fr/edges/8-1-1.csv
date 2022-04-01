@@ -1,4 +1,4 @@
 From,To
-Géographie,Sexe
+Géographie,Population
+Population,Sexe
 Sexe,Groupe d'âge
-Groupe d'âge,Population
