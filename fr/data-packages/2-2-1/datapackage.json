@@ -13,49 +13,26 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Biodiversité",
-                "Qualité des sols",
-                "Qualité de l'eau",
-                "Qualité de l'air",
+                "data.Biodiversity",
+                "data.Soil Quality",
+                "data.Water Quality",
+                "data.Air Quality",
                 ""
               ]
             },
-            "title": "Indice"
-          },
-          {
-            "name": "data.Indicator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Indice composé",
-                "Couverture des sols",
-                "Capacité d'habitat faunique des terres agricoles",
-                "Risques d'érosion des sols",
-                "Matière organique du sol",
-                "Risque de salinisation du sol",
-                "Azote",
-                "Phosphore",
-                "Coliforme",
-                "Pesticides",
-                "Gaz à effet de serre d'origine agricole",
-                "Ammoniac d'origine agricole",
-                "Particules fines",
-                ""
-              ]
-            },
-            "title": "Indicateur"
+            "title": "data.Index"
           },
           {
             "name": "Value",
-            "type": "integer",
-            "title": "Valeur"
+            "type": "number",
+            "title": "Value"
           }
         ]
       }
