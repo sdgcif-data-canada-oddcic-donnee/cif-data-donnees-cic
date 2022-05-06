@@ -13,66 +13,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Institutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Police",
-                "data.Justice system and courts",
-                "data.School system",
-                "data.Federal Parliament",
-                "data.Banks",
-                "data.Major corporations",
-                "data.Local merchants and business people",
-                "data.Canadian media",
+                "Police",
+                "Système de justice et tribunaux",
+                "Système scolaire",
+                "Parlement fédéral",
+                "Banques",
+                "Grandes sociétés",
+                "Marchands locaux et gens d’affaires",
+                "Médias canadiens",
                 ""
               ]
             },
-            "title": "data.Institutions"
+            "title": "Institutions"
           },
           {
             "name": "data.Characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total population",
-                "data.Male",
-                "data.Female",
-                "data.Indigenous person",
-                "data.Non-Indigenous person",
-                "data.Visible minority",
-                "data.Non-visible minority",
-                "data.Black",
-                "data.First Nations, Métis, or Inuit",
-                "data.Other group designated as visible minority",
-                "data.Non-Indigenous, non-visible minority",
+                "Population totale",
+                "Homme",
+                "Femme",
+                "Autochtone",
+                "Personne non autochtone",
+                "Minorité visible",
+                "N’appartenant pas à une minorité visible",
+                "Noirs",
+                "Premières Nations, Métis ou Inuits",
+                "Autres groupes désignés comme minorités visibles",
+                "Non-Autochtones n’appartenant pas à une minorité visible",
                 ""
               ]
             },
-            "title": "data.Characteristics"
+            "title": "Caractéristiques"
           },
           {
             "name": "data.Level of confidence",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Some confidence",
-                "data.Not very much or no confidence",
-                "data.A great deal of confidence",
-                "data.Not confident",
-                "data.Confident",
+                "Une certaine confiance",
+                "Très peu confiance ou aucune confiance",
+                "Une grande confiance",
+                "Aucune confiance",
+                "Confiance",
                 ""
               ]
             },
-            "title": "data.Level of confidence"
+            "title": "Niveau de confiance"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

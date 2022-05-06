@@ -26,20 +26,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Black",
-                "data.Female",
-                "data.First Nations, Métis, or Inuit",
-                "data.Indigenous person",
-                "data.Male",
-                "data.Non-Indigenous person",
-                "data.Non-Indigenous, non-visible minority",
-                "data.Non-visible minority",
-                "data.Other group designated as visible minority",
-                "data.Total population",
-                "data.Visible minority"
+                "Black",
+                "Female",
+                "First Nations, Métis, or Inuit",
+                "Indigenous person",
+                "Male",
+                "Non-Indigenous person",
+                "Non-Indigenous, non-visible minority",
+                "Non-visible minority",
+                "Other group designated as visible minority",
+                "Total population",
+                "Visible minority"
               ]
             },
-            "title": "data.Characteristics"
+            "title": "Characteristics"
           },
           {
             "name": "data.Institutions",
@@ -47,17 +47,17 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Banks",
-                "data.Canadian media",
-                "data.Federal Parliament",
-                "data.Justice system and courts",
-                "data.Local merchants and business people",
-                "data.Major corporations",
-                "data.Police",
-                "data.School system"
+                "Banks",
+                "Canadian media",
+                "Federal Parliament",
+                "Justice system and courts",
+                "Local merchants and business people",
+                "Major corporations",
+                "Police",
+                "School system"
               ]
             },
-            "title": "data.Institutions"
+            "title": "Institutions"
           },
           {
             "name": "data.Level of confidence",
@@ -65,14 +65,14 @@
             "constraints": {
               "enum": [
                 "",
-                "data.A great deal of confidence",
-                "data.Confident",
-                "data.Not confident",
-                "data.Not very much or no confidence",
-                "data.Some confidence"
+                "A great deal of confidence",
+                "Confident",
+                "Not confident",
+                "Not very much or no confidence",
+                "Some confidence"
               ]
             },
-            "title": "data.Level of confidence"
+            "title": "Level of confidence"
           }
         ]
       }
