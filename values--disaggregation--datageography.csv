@@ -13,7 +13,7 @@ data.British Columbia [59],14,1
 data.British Columbia and the Territories,1,1
 data.British Columbia,1520,39
 "data.Calgary, Alberta",57,4
-data.Canada,2015,36
+data.Canada,2013,36
 "data.Edmonton, Alberta",57,4
 data.Great Lakes and St. Lawrence River,72,1
 "data.Greater Sudbury / Grand Sudbury, Ontario",3,2
@@ -78,8 +78,8 @@ data.Territories,49,2
 "data.Victoria, British Columbia",3,2
 data.Whitehorse Yukon,1,1
 "data.Windsor, Ontario",3,2
-data.Winnipeg Manitoba,1,1
 "data.Winnipeg, Manitoba",57,4
+data.Winnipeg Manitoba,1,1
 data.Yellowknife Northwest Territories,1,1
 data.Yukon [60],14,1
 "data.Yukon, Northwest Territories and Nunavut",3,1
