@@ -24,13 +24,13 @@
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
-                "New Brunswick",
                 "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "New Brunswick",
                 ""
               ]
             },
@@ -57,6 +57,9 @@
                 "All grades",
                 "Grades 7-9",
                 "Grades 10-12",
+                "Secondary I-III",
+                "Secondary IV-V",
+                "Grades 6-9",
                 ""
               ]
             },
@@ -74,6 +77,11 @@
               ]
             },
             "title": "Type of e-cigarettes"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

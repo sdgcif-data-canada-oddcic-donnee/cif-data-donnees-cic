@@ -23,13 +23,13 @@
                 "data.Newfoundland and Labrador",
                 "data.Prince Edward Island",
                 "data.Nova Scotia",
-                "data.New Brunswick",
                 "data.Quebec",
                 "data.Ontario",
                 "data.Manitoba",
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
+                "data.New Brunswick",
                 ""
               ]
             }
@@ -54,6 +54,9 @@
                 "data.All grades",
                 "data.Grades 7-9",
                 "data.Grades 10-12",
+                "data.Secondary I-III",
+                "data.Secondary IV-V",
+                "data.Grades 6-9",
                 ""
               ]
             }
@@ -69,6 +72,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
