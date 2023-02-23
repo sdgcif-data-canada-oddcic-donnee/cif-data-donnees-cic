@@ -1,2 +1,201 @@
-Year,Value
-2019,27.3
+Year,Géographie,Sexe,Groupe d'âge,GeoCode,Value
+2015,,,,,30.53
+2016,,,,,29.55
+2017,,,,,28.88
+2018,,,,,28.93
+2019,,,,,27.38
+2020,,,,,26.69
+2021,,,,,27.19
+2022,,,,,24.85
+2015,Alberta,Total,Total,48,21.74
+2016,Alberta,Total,Total,48,21.88
+2017,Alberta,Total,Total,48,21.11
+2018,Alberta,Total,Total,48,21.01
+2019,Alberta,Total,Total,48,20.03
+2020,Alberta,Total,Total,48,21.26
+2021,Alberta,Total,Total,48,23.38
+2022,Alberta,Total,Total,48,23.33
+2015,Colombie-Britannique,Total,Total,59,28.46
+2016,Colombie-Britannique,Total,Total,59,28.09
+2017,Colombie-Britannique,Total,Total,59,27.27
+2018,Colombie-Britannique,Total,Total,59,28.08
+2019,Colombie-Britannique,Total,Total,59,24.92
+2020,Colombie-Britannique,Total,Total,59,24.3
+2021,Colombie-Britannique,Total,Total,59,23.57
+2022,Colombie-Britannique,Total,Total,59,20.97
+2015,Canada,Total,15 à 24 ans,,73.3
+2015,Canada,Total,25 à 54 ans,,21.38
+2015,Canada,Total,55 ans et plus,,26.56
+2015,Canada,Homme,Total,,25.41
+2015,Canada,Homme,15 à 24 ans,,68.81
+2015,Canada,Homme,25 à 54 ans,,16.4
+2015,Canada,Homme,55 ans et plus,,20.77
+2015,Canada,Femme,Total,,35.79
+2015,Canada,Femme,15 à 24 ans,,77.81
+2015,Canada,Femme,25 à 54 ans,,26.48
+2015,Canada,Femme,55 ans et plus,,32.67
+2016,Canada,Total,15 à 24 ans,,72.82
+2016,Canada,Total,25 à 54 ans,,20.52
+2016,Canada,Total,55 ans et plus,,25.27
+2016,Canada,Homme,Total,,25.05
+2016,Canada,Homme,15 à 24 ans,,68.59
+2016,Canada,Homme,25 à 54 ans,,16.04
+2016,Canada,Homme,55 ans et plus,,20.81
+2016,Canada,Femme,Total,,34.12
+2016,Canada,Femme,15 à 24 ans,,77.04
+2016,Canada,Femme,25 à 54 ans,,25.05
+2016,Canada,Femme,55 ans et plus,,29.94
+2017,Canada,Total,15 à 24 ans,,72.41
+2017,Canada,Total,25 à 54 ans,,19.73
+2017,Canada,Total,55 ans et plus,,24.32
+2017,Canada,Homme,Total,,24.22
+2017,Canada,Homme,15 à 24 ans,,67.96
+2017,Canada,Homme,25 à 54 ans,,15.27
+2017,Canada,Homme,55 ans et plus,,18.76
+2017,Canada,Femme,Total,,33.66
+2017,Canada,Femme,15 à 24 ans,,76.97
+2017,Canada,Femme,25 à 54 ans,,24.27
+2017,Canada,Femme,55 ans et plus,,30.18
+2018,Canada,Total,15 à 24 ans,,70.37
+2018,Canada,Total,25 à 54 ans,,20.18
+2018,Canada,Total,55 ans et plus,,24.83
+2018,Canada,Homme,Total,,24.28
+2018,Canada,Homme,15 à 24 ans,,65.66
+2018,Canada,Homme,25 à 54 ans,,15.81
+2018,Canada,Homme,55 ans et plus,,19.12
+2018,Canada,Femme,Total,,33.72
+2018,Canada,Femme,15 à 24 ans,,75.26
+2018,Canada,Femme,25 à 54 ans,,24.65
+2018,Canada,Femme,55 ans et plus,,30.8
+2019,Canada,Total,15 à 24 ans,,68.56
+2019,Canada,Total,25 à 54 ans,,18.4
+2019,Canada,Total,55 ans et plus,,24.15
+2019,Canada,Homme,Total,,22.92
+2019,Canada,Homme,15 à 24 ans,,63.96
+2019,Canada,Homme,25 à 54 ans,,14.19
+2019,Canada,Homme,55 ans et plus,,19.09
+2019,Canada,Femme,Total,,31.97
+2019,Canada,Femme,15 à 24 ans,,73.24
+2019,Canada,Femme,25 à 54 ans,,22.68
+2019,Canada,Femme,55 ans et plus,,29.6
+2020,Canada,Total,15 à 24 ans,,70.81
+2020,Canada,Total,25 à 54 ans,,18.12
+2020,Canada,Total,55 ans et plus,,24.05
+2020,Canada,Homme,Total,,22.84
+2020,Canada,Homme,15 à 24 ans,,67.15
+2020,Canada,Homme,25 à 54 ans,,14.55
+2020,Canada,Homme,55 ans et plus,,19.04
+2020,Canada,Femme,Total,,30.73
+2020,Canada,Femme,15 à 24 ans,,74.64
+2020,Canada,Femme,25 à 54 ans,,21.83
+2020,Canada,Femme,55 ans et plus,,29.51
+2021,Canada,Total,15 à 24 ans,,71.35
+2021,Canada,Total,25 à 54 ans,,18.08
+2021,Canada,Total,55 ans et plus,,24.39
+2021,Canada,Homme,Total,,23.56
+2021,Canada,Homme,15 à 24 ans,,68.29
+2021,Canada,Homme,25 à 54 ans,,14.69
+2021,Canada,Homme,55 ans et plus,,19.54
+2021,Canada,Femme,Total,,30.95
+2021,Canada,Femme,15 à 24 ans,,74.5
+2021,Canada,Femme,25 à 54 ans,,21.55
+2021,Canada,Femme,55 ans et plus,,29.7
+2022,Canada,Total,15 à 24 ans,,66.95
+2022,Canada,Total,25 à 54 ans,,15.91
+2022,Canada,Total,55 ans et plus,,22.52
+2022,Canada,Homme,Total,,20.68
+2022,Canada,Homme,15 à 24 ans,,63.32
+2022,Canada,Homme,25 à 54 ans,,12.04
+2022,Canada,Homme,55 ans et plus,,17.41
+2022,Canada,Femme,Total,,29.15
+2022,Canada,Femme,15 à 24 ans,,70.59
+2022,Canada,Femme,25 à 54 ans,,19.88
+2022,Canada,Femme,55 ans et plus,,27.98
+2015,Manitoba,Total,Total,46,34.01
+2016,Manitoba,Total,Total,46,32.4
+2017,Manitoba,Total,Total,46,32.19
+2018,Manitoba,Total,Total,46,34.22
+2019,Manitoba,Total,Total,46,33.79
+2020,Manitoba,Total,Total,46,34.37
+2021,Manitoba,Total,Total,46,35.63
+2022,Manitoba,Total,Total,46,33.97
+2015,Nouveau-Brunswick,Total,Total,13,40.61
+2016,Nouveau-Brunswick,Total,Total,13,38.56
+2017,Nouveau-Brunswick,Total,Total,13,38.21
+2018,Nouveau-Brunswick,Total,Total,13,39.1
+2019,Nouveau-Brunswick,Total,Total,13,38.28
+2020,Nouveau-Brunswick,Total,Total,13,40.05
+2021,Nouveau-Brunswick,Total,Total,13,38.51
+2022,Nouveau-Brunswick,Total,Total,13,35.16
+2015,Terre-Neuve-et-Labrador,Total,Total,10,36.33
+2016,Terre-Neuve-et-Labrador,Total,Total,10,36.5
+2017,Terre-Neuve-et-Labrador,Total,Total,10,34.14
+2018,Terre-Neuve-et-Labrador,Total,Total,10,34.31
+2019,Terre-Neuve-et-Labrador,Total,Total,10,33.86
+2020,Terre-Neuve-et-Labrador,Total,Total,10,35.88
+2021,Terre-Neuve-et-Labrador,Total,Total,10,32.95
+2022,Terre-Neuve-et-Labrador,Total,Total,10,32.56
+2015,Territoires du Nord-Ouest,Total,Total,61,12.38
+2016,Territoires du Nord-Ouest,Total,Total,61,11.05
+2017,Territoires du Nord-Ouest,Total,Total,61,9.92
+2018,Territoires du Nord-Ouest,Total,Total,61,12.67
+2019,Territoires du Nord-Ouest,Total,Total,61,12.2
+2020,Territoires du Nord-Ouest,Total,Total,61,11.72
+2021,Territoires du Nord-Ouest,Total,Total,61,12.52
+2022,Territoires du Nord-Ouest,Total,Total,61,12.6
+2015,Nouvelle-Écosse,Total,Total,12,38.65
+2016,Nouvelle-Écosse,Total,Total,12,36.75
+2017,Nouvelle-Écosse,Total,Total,12,35.94
+2018,Nouvelle-Écosse,Total,Total,12,38.09
+2019,Nouvelle-Écosse,Total,Total,12,37.88
+2020,Nouvelle-Écosse,Total,Total,12,37.72
+2021,Nouvelle-Écosse,Total,Total,12,38.26
+2022,Nouvelle-Écosse,Total,Total,12,35.36
+2015,Nunavut,Total,Total,62,15.64
+2016,Nunavut,Total,Total,62,15.97
+2017,Nunavut,Total,Total,62,15.18
+2018,Nunavut,Total,Total,62,15.03
+2019,Nunavut,Total,Total,62,14.15
+2020,Nunavut,Total,Total,62,17.62
+2021,Nunavut,Total,Total,62,11.68
+2022,Nunavut,Total,Total,62,13.92
+2015,Ontario,Total,Total,35,31.78
+2016,Ontario,Total,Total,35,30.69
+2017,Ontario,Total,Total,35,30.69
+2018,Ontario,Total,Total,35,29.46
+2019,Ontario,Total,Total,35,27.95
+2020,Ontario,Total,Total,35,26.78
+2021,Ontario,Total,Total,35,27.7
+2022,Ontario,Total,Total,35,25.24
+2015,Île-du-Prince-Édouard,Total,Total,11,41.83
+2016,Île-du-Prince-Édouard,Total,Total,11,41.03
+2017,Île-du-Prince-Édouard,Total,Total,11,39.31
+2018,Île-du-Prince-Édouard,Total,Total,11,41.09
+2019,Île-du-Prince-Édouard,Total,Total,11,40.66
+2020,Île-du-Prince-Édouard,Total,Total,11,38.99
+2021,Île-du-Prince-Édouard,Total,Total,11,39.66
+2022,Île-du-Prince-Édouard,Total,Total,11,36.33
+2015,Québec,Total,Total,24,32.16
+2016,Québec,Total,Total,24,30.52
+2017,Québec,Total,Total,24,28.82
+2018,Québec,Total,Total,24,29.83
+2019,Québec,Total,Total,24,28.14
+2020,Québec,Total,Total,24,26.43
+2021,Québec,Total,Total,24,26.37
+2022,Québec,Total,Total,24,22.94
+2015,Saskatchewan,Total,Total,47,25.37
+2016,Saskatchewan,Total,Total,47,24.2
+2017,Saskatchewan,Total,Total,47,24.11
+2018,Saskatchewan,Total,Total,47,25.71
+2019,Saskatchewan,Total,Total,47,26.44
+2020,Saskatchewan,Total,Total,47,26.18
+2021,Saskatchewan,Total,Total,47,27.44
+2022,Saskatchewan,Total,Total,47,26.83
+2015,Yukon,Total,Total,60,15.36
+2016,Yukon,Total,Total,60,16.0
+2017,Yukon,Total,Total,60,16.65
+2018,Yukon,Total,Total,60,14.53
+2019,Yukon,Total,Total,60,15.27
+2020,Yukon,Total,Total,60,16.03
+2021,Yukon,Total,Total,60,14.18
+2022,Yukon,Total,Total,60,11.45
