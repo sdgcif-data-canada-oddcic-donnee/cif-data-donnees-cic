@@ -265,10 +265,10 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 ans et plus",
-                "12 à 15 ans",
-                "16 et 17 ans",
                 "Autres âges",
                 "Âge n'ayant pas lieu de figurer",
+                "12 à 15 ans",
+                "16 et 17 ans",
                 ""
               ]
             },
@@ -288,6 +288,11 @@
               ]
             },
             "title": "Sexe de l'accusé"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1081,6 +1086,11 @@
             "title": "Sexe"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1476,6 +1486,11 @@
             "title": "Âge"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1635,6 +1650,11 @@
             "title": "Sexe"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1697,7 +1717,7 @@
                 "Récipients triangulaires et aseptiques",
                 "Textiles",
                 "Pneus",
-                "data.Construction, renovation and demolition",
+                "Déchets provenant de la construction, de la rénovation et de la démolition",
                 "Matières organiques",
                 "Autres matières",
                 ""
@@ -1844,6 +1864,11 @@
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -2003,6 +2028,11 @@
             "title": "Sexe"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -2075,6 +2105,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -2484,17 +2519,6 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
@@ -2650,7 +2674,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2667,14 +2691,13 @@
                 "Colombie-Britannique",
                 "Yukon",
                 "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "Type of electricity generation",
+            "name": "data.Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2798,11 +2821,6 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "data.Population",
             "type": "string",
             "constraints": {
@@ -2862,6 +2880,11 @@
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3063,6 +3086,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3524,6 +3552,11 @@
             "title": "Indice"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -3851,59 +3884,74 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
-                "St. John's, Terre-Neuve-et-Labrador",
+                "St. John's (RMR), T.-N.-L.",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
-                "Halifax, Nouvelle-Écosse",
+                "Halifax (RMR), N.-É.",
                 "Nouveau-Brunswick",
-                "Moncton, Nouveau-Brunswick",
-                "Saint John, Nouveau-Brunswick",
+                "Moncton (RMR), N.-B.",
+                "Saint John (RMR), N.-B.",
                 "Québec",
-                "Montreal, Quebec",
-                "Ottawa - Gatineau (partie du Québec), Québec",
-                "Québec, Québec",
-                "Saguenay, Québec",
-                "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
+                "Montréal (RMR), Qc",
+                "Ottawa - Gatineau (partie du Québec) (RMR), Qc",
+                "Québec (RMR), Qc",
+                "Saguenay (RMR), Qc",
+                "Sherbrooke (RMR), Qc",
+                "Trois-Rivières (RMR), Qc",
                 "Ontario",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Hamilton, Ontario",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "London, Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
-                "Peterborough, Ontario",
-                "St. Catharines - Niagara, Ontario",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Windsor, Ontario",
+                "Barrie (RMR), Ont.",
+                "Belleville - Quinte West (RMR), Ont.",
+                "Brantford (RMR), Ont.",
+                "Grand Sudbury (RMR), Ont.",
+                "Guelph (RMR), Ont.",
+                "Hamilton (RMR), Ont.",
+                "Kingston (RMR), Ont.",
+                "Kitchener - Cambridge - Waterloo (RMR), Ont.",
+                "London (RMR), Ont.",
+                "Oshawa (RMR), Ont.",
+                "Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",
+                "Peterborough (RMR), Ont.",
+                "St. Catharines - Niagara (RMR), Ont.",
+                "Thunder Bay (RMR), Ont.",
+                "Toronto (RMR), Ont.",
+                "Windsor (RMR), Ont.",
                 "Manitoba",
-                "Winnipeg, Manitoba",
+                "Winnipeg (RMR), Man.",
                 "Saskatchewan",
-                "Regina, Saskatchewan",
-                "Saskatoon, Saskatchewan",
+                "Regina (RMR), Sask.",
+                "Saskatoon (RMR), Sask.",
                 "Alberta",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Lethbridge, Alberta",
+                "Calgary (RMR), Alb.",
+                "Edmonton (RMR), Alb.",
+                "Lethbridge (RMR), Alb.",
                 "Colombie-Britannique",
-                "Abbotsford - Mission, Colombie-Britannique",
-                "Kelowna, Colombie-Britannique",
-                "Vancouver, Colombie-Britannique",
-                "Victoria, Colombie-Britannique",
+                "Abbotsford - Mission (RMR), C.-B.",
+                "Kelowna (RMR), C.-B.",
+                "Vancouver (RMR), C.-B.",
+                "Victoria (RMR), C.-B.",
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Ottawa - Gatineau (RMR), Ont./Qc",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "data.Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
           },
           {
             "name": "data.Type of commute",
@@ -3912,10 +3960,11 @@
               "enum": [
                 "Transport en commun",
                 "Transport actif",
+                "Transport durable",
                 ""
               ]
             },
-            "title": "Type de navettage"
+            "title": "Principal mode de transport pour la navette"
           },
           {
             "name": "Value",
@@ -4765,6 +4814,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

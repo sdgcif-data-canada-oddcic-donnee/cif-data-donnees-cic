@@ -1,2 +1,3 @@
 From,To
-data.Geography,data.Type of commute
+data.Geography,data.Gender
+data.Gender,data.Type of commute

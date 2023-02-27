@@ -16,17 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
