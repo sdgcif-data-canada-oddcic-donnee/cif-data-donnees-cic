@@ -33,18 +33,10 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",
@@ -82,6 +74,7 @@
             "constraints": {
               "enum": [
                 "Sécurité alimentaire",
+                "Insécurité alimentaire",
                 "Insécurité alimentaire marginale",
                 "Insécurité alimentaire modérée",
                 "Insécurité alimentaire grave",
@@ -90,6 +83,11 @@
               ]
             },
             "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

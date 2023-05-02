@@ -33,18 +33,10 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",
@@ -82,6 +74,7 @@
             "constraints": {
               "enum": [
                 "Food secure",
+                "Food secure",
                 "Food insecure, marginal",
                 "Food insecure, moderate",
                 "Food insecure, severe",
@@ -90,6 +83,11 @@
               ]
             },
             "title": "Household food security status"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
