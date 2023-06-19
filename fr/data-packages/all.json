@@ -472,6 +472,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Territoires du Nord-Ouest",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             },
@@ -2517,7 +2520,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
           },
           {
@@ -2549,6 +2552,26 @@
               ]
             },
             "title": "Région"
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 5"
           },
           {
             "name": "Value",
@@ -3569,20 +3592,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -3594,21 +3617,20 @@
             "constraints": {
               "enum": [
                 "Diphtérie",
-                "Coqueluche",
-                "Tétanos",
-                "Polio",
-                "Haemophilus influenzae de type B",
+                "Haemophilus influenzae de type B (Hib)",
                 "Rougeole",
-                "Rubéole",
-                "Oreillons",
-                "Hépatite B",
-                "Varicelle",
                 "Méningite de type C",
+                "Rubéole",
+                "Coqueluche",
                 "Pneumocoque",
+                "Polio",
                 "Rotavirus",
-                "Virus du papillome humain",
-                "Vaccin de rappel de la diphtérie, la coqueluche et le tétanos",
-                "Diphtérie, la coqueluche et le tétanos",
+                "Oreillons",
+                "Tétanos",
+                "Varicelle",
+                "Hépatite B",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                "Virus du papillome humain (VPH)",
                 ""
               ]
             },
@@ -3621,25 +3643,17 @@
               "enum": [
                 "2 ans",
                 "7 ans",
-                "14 ans",
                 "17 ans",
+                "14 ans",
                 ""
               ]
             },
             "title": "Âge"
           },
           {
-            "name": "data.Sex",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Tous les enfants",
-                "Homme",
-                "Femme",
-                ""
-              ]
-            },
-            "title": "Sexe"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

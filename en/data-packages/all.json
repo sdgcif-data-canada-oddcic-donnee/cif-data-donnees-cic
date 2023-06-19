@@ -472,6 +472,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Northwest Territories",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             },
@@ -2517,7 +2520,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
           },
           {
@@ -2549,6 +2552,26 @@
               ]
             },
             "title": "Region"
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 5"
           },
           {
             "name": "Value",
@@ -3569,20 +3592,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -3594,21 +3617,20 @@
             "constraints": {
               "enum": [
                 "Diphtheria",
-                "Pertussis",
-                "Tetanus",
-                "Polio",
-                "Haemophilus influenzae type B",
+                "Haemophilus influenzae type B (Hib)",
                 "Measles",
-                "Mumps",
-                "Rubella",
-                "Hepatitis B",
-                "Varicella",
                 "Meningococcal type C",
+                "Mumps",
+                "Pertussis (whooping cough)",
                 "Pneumococcal",
+                "Polio",
                 "Rotavirus",
-                "Human Papillomavirus",
-                "Diphtheria - Tetanus - acellular Pertussis booster",
-                "Diphtheria - Pertussis and tetanus",
+                "Rubella",
+                "Tetanus",
+                "Varicella",
+                "Hepatitis B",
+                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
+                "Human Papillomavirus (HPV)",
                 ""
               ]
             },
@@ -3621,25 +3643,17 @@
               "enum": [
                 "by 2 years of age",
                 "by 7 years of age",
-                "by 14 years of age",
                 "by 17 years of age",
+                "by 14 years of age",
                 ""
               ]
             },
             "title": "Age"
           },
           {
-            "name": "data.Sex",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "All children",
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

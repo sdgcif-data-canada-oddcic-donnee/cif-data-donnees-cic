@@ -442,6 +442,9 @@
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
+                "data.Northwest Territories",
+                "data.Yukon",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -2342,7 +2345,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "data.Pillar",
@@ -2368,6 +2371,24 @@
                 "data.Europe",
                 "data.Middle East",
                 "data.Oceania",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "number",
+            "constraints": {
+              "enum": [
                 ""
               ]
             }
@@ -3322,20 +3343,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
                 "data.Northwest Territories",
+                "data.Nova Scotia",
                 "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             }
@@ -3346,21 +3367,20 @@
             "constraints": {
               "enum": [
                 "data.Diphtheria",
-                "data.Pertussis",
-                "data.Tetanus",
-                "data.Polio",
-                "data.Haemophilus influenzae type B",
+                "data.Haemophilus influenzae type B (Hib)",
                 "data.Measles",
-                "data.Mumps",
-                "data.Rubella",
-                "data.Hepatitis B",
-                "data.Varicella",
                 "data.Meningococcal type C",
+                "data.Mumps",
+                "data.Pertussis (whooping cough)",
                 "data.Pneumococcal",
+                "data.Polio",
                 "data.Rotavirus",
-                "data.Human Papillomavirus",
-                "data.Diphtheria - Tetanus - acellular Pertussis booster",
-                "data.Diphtheria - Pertussis and tetanus",
+                "data.Rubella",
+                "data.Tetanus",
+                "data.Varicella",
+                "data.Hepatitis B",
+                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
+                "data.Human Papillomavirus (HPV)",
                 ""
               ]
             }
@@ -3372,23 +3392,15 @@
               "enum": [
                 "data.by 2 years of age",
                 "data.by 7 years of age",
-                "data.by 14 years of age",
                 "data.by 17 years of age",
+                "data.by 14 years of age",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All children",
-                "data.Male",
-                "data.Female",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
