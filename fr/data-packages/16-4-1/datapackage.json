@@ -16,11 +16,38 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux par 100 000 personnes",
+                "Nombre",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Alberta",
+                "Colombie-Britannique",
                 "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "data.Total Census metropolitan area",
+                "data.Total Non-Census metropolitan area",
+                "Yukon",
                 ""
               ]
             },
@@ -60,7 +87,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]

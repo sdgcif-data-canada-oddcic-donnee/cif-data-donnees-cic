@@ -16,20 +16,23 @@
             "title": "Year"
           },
           {
-            "name": "data.Sex",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men",
-                "Women",
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 years and over",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Selected sociodemographic characteristics"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

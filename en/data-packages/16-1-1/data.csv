@@ -1,5 +1,13 @@
-Year,Sex,Value
-2014,Men,96
-2014,Women,88
-2019,Men,92
-2019,Women,83
+Year,Selected sociodemographic characteristics,Value
+2014,15 to 24 years,88.0
+2014,25 to 64 years,92.75
+2014,65 years and over,91.5
+2014,Men+,96.0
+2014,Women+,88.0
+2019,Men+,92.0
+2019,Women+,83.0
+2021,15 to 24 years,77.9
+2021,25 to 64 years,79.8
+2021,65 years and over,76.0
+2021,Men+,80.8
+2021,Women+,76.0
