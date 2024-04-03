@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "data.Pillar",
@@ -38,24 +38,6 @@
                 "data.Europe",
                 "data.Middle East",
                 "data.Oceania",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unnamed: 4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unnamed: 5",
-            "type": "number",
-            "constraints": {
-              "enum": [
                 ""
               ]
             }

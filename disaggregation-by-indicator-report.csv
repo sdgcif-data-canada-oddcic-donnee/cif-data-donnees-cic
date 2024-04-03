@@ -3,11 +3,11 @@ Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"data.Geography, data.Age group and family type, data.Statistics",3
 #10-1-1,data.Geography,1
 #10-2-1,Geography,1
-#10-3-1,"data.Geography, data.Age, data.Type of work, data.National Occupational Classification (NOC)",4
+#10-3-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
 #10-4-1,"data.Geography, data.Economic family type",2
 #11-1-1,data.Estimates,1
 #11-2-1,"data.Select housing vulnerable populations, data.Living with housing problems",2
-#11-4-1,"data.Geography, data.Demographic and geodemographic",2
+#11-4-1,data.Geography,1
 #11-5-1,"data.Geography, data.Gender, data.Type of commute",3
 #11-6-1,"data.Geography, data.Sources of waste for disposal",2
 #11-7-1,"data.Geography, data.Sex, data.Age group",3
@@ -36,14 +36,14 @@ Indicator,Disaggregations,Number of disaggregations
 #3-12-1,"Geography, Type of event",2
 #3-13-1,"data.Geography, data.Sex, data.Age group",3
 #3-2-1,"data.Geography, data.Sex, data.Grade, data.Type of e-cigarettes",4
-#3-3-1,"data.Geography, data.Measures, data.Sex, data.Age group",4
+#3-3-1,"data.Geography, data.Sex, data.Age group, data.Measures",4
 #3-4-1,"data.Geography, data.Sex, data.Age group",3
 #3-5-1,"data.Geography, data.Sex, data.Age group",3
 #3-6-1,"data.Geography, data.Sex, data.Age group",3
 #3-7-1,"data.Geography, data.Sex, data.Age group",3
-#3-8-1,"data.Geography, data.Selected diseases, data.Age",3
+#3-8-1,"data.Geography, data.Age, data.Selected diseases",3
 #3-9-1,data.Disease,1
-#4-1-1,"data.Geography, data.Age group, data.Gender, data.Selected demographic characteristics",4
+#4-1-1,"data.Geography, data.Gender, data.Age group, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
