@@ -1,7 +1,7 @@
 Value,Disaggregation combinations using this value,Number of indicators
 "data.Abbotsford - Mission, British Columbia",1,1
 "data.Abbotsford - Mission (CMA), B.C.",9,1
-data.Alberta,1337,39
+data.Alberta,1391,40
 data.Atlantic Ocean,72,1
 data.Atlantic provinces,152,3
 data.Atlantic region,23,1
@@ -13,10 +13,10 @@ data.Atlantic,121,2
 "data.Brantford (CMA), Ont.",9,1
 "data.Brantford, Ontario",1,1
 data.British Columbia and the Territories,1,1
-data.British Columbia,1447,40
+data.British Columbia,1501,41
 "data.Calgary, Alberta",33,3
 "data.Calgary (CMA), Alta.",9,1
-data.Canada,1560,35
+data.Canada,1613,36
 "data.Edmonton, Alberta",33,3
 "data.Edmonton (CMA), Alta.",9,1
 data.Great Lakes and St. Lawrence River,72,1
@@ -40,17 +40,17 @@ data.Hudson Bay,72,1
 "data.London (CMA), Ont.",9,1
 "data.London, Ontario",1,1
 data.Mackenzie River,72,1
-data.Manitoba,1328,40
+data.Manitoba,1382,41
 "data.Moncton (CMA), N.B.",9,1
 "data.Moncton, New Brunswick",1,1
 "data.Montréal (CMA), Que.",9,1
 "data.Montréal, Quebec",32,2
-data.New Brunswick,1305,39
-data.Newfoundland and Labrador,1302,38
+data.New Brunswick,1359,40
+data.Newfoundland and Labrador,1356,39
 data.Northwest Territories,717,22
-data.Nova Scotia,1303,38
+data.Nova Scotia,1357,39
 data.Nunavut,713,22
-data.Ontario,1448,41
+data.Ontario,1502,42
 "data.Oshawa (CMA), Ont.",9,1
 "data.Oshawa, Ontario",1,1
 "data.Ottawa - Gatineau (CMA), Ont./Que.",9,1
@@ -64,8 +64,8 @@ data.Pacific Ocean,82,1
 "data.Peterborough, Ontario",1,1
 data.Prairie provinces,152,3
 data.Prairies,120,1
-data.Prince Edward Island,1303,39
-data.Quebec,1455,41
+data.Prince Edward Island,1357,40
+data.Quebec,1509,42
 "data.Québec (CMA), Que.",9,1
 "data.Québec, Quebec",32,2
 "data.Regina (CMA), Sask.",9,1
@@ -74,7 +74,7 @@ data.Quebec,1455,41
 "data.Saguenay, Quebec",1,1
 "data.Saint John (CMA), N.B.",9,1
 "data.Saint John, New Brunswick",1,1
-data.Saskatchewan,1329,40
+data.Saskatchewan,1383,41
 "data.Saskatoon (CMA), Sask.",9,1
 "data.Saskatoon, Saskatchewan",1,1
 "data.Sherbrooke (CMA), Que.",9,1
@@ -83,6 +83,7 @@ data.Saskatchewan,1329,40
 "data.St. Catharines - Niagara, Ontario",1,1
 "data.St. John's (CMA), N.L.",9,1
 "data.St. John's, Newfoundland and Labrador",1,1
+data.Territories,54,1
 "data.Thunder Bay (CMA), Ont.",9,1
 "data.Thunder Bay, Ontario",1,1
 "data.Toronto (CMA), Ont.",9,1
