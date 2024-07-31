@@ -1,11 +1,10 @@
 Value,Disaggregation combinations using this value,Number of indicators
-data.Both sexes,1904,15
-data.Female,681,4
-data.Females,1120,12
-data.Male,681,4
-data.Males,1120,12
+data.Both sexes,1638,11
+data.Female,677,3
+data.Females,851,8
+data.Male,677,3
+data.Males,851,8
 data.Men,3,1
-data.Total,16,1
 data.Women,3,1
 Female,1,1
 Male,1,1

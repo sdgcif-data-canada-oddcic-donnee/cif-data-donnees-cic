@@ -20,63 +20,51 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Selected diseases",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hépatite B",
-                "Virus du papillome humain (VPH)",
-                "Diphtérie",
-                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
-                "Haemophilus influenzae de type B (Hib)",
-                "Rougeole",
-                "Méningite de type C",
-                "Rubéole",
-                "Coqueluche",
-                "Polio",
-                "Oreillons",
-                "Tétanos",
-                "Pneumocoque",
-                "Rotavirus",
-                "Varicelle",
+                "Total, 12 ans et plus",
+                "12 à 17 ans",
+                "18 à 34 ans",
+                "35 à 49 ans",
+                "50 à 64 ans",
+                "65 ans et plus",
+                "Total, 18 ans et plus",
                 ""
               ]
             },
-            "title": "Antigène ou vaccin"
+            "title": "Groupe d'âge"
           },
           {
-            "name": "data.Age",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "14 ans",
-                "17 ans",
-                "2 ans",
-                "7 ans",
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Sexe"
           },
           {
             "name": "GeoCode",
@@ -94,5 +82,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-1",
-  "title": "Vaccination rates for selected diseases"
+  "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
 }

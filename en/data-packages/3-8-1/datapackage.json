@@ -20,63 +20,51 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon",
                 ""
               ]
             },
             "title": "Geography"
           },
           {
-            "name": "data.Selected diseases",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hepatitis B",
-                "Human Papillomavirus (HPV)",
-                "Diphtheria",
-                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "Haemophilus influenzae type B (Hib)",
-                "Measles",
-                "Meningococcal type C",
-                "Mumps",
-                "Pertussis (whooping cough)",
-                "Polio",
-                "Rubella",
-                "Tetanus",
-                "Pneumococcal",
-                "Rotavirus",
-                "Varicella",
+                "Total, 12 years and over",
+                "12 to 17 years",
+                "18 to 34 years",
+                "35 to 49 years",
+                "50 to 64 years",
+                "65 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
-            "title": "Selected diseases"
+            "title": "Age group"
           },
           {
-            "name": "data.Age",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "by 14 years of age",
-                "by 17 years of age",
-                "by 2 years of age",
-                "by 7 years of age",
+                "Males",
+                "Females",
+                "Both sexes",
                 ""
               ]
             },
-            "title": "Age"
+            "title": "Sex"
           },
           {
             "name": "GeoCode",
@@ -94,5 +82,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-1",
-  "title": "Vaccination rates for selected diseases"
+  "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
 }

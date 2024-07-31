@@ -12,78 +12,63 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Units",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Rate per 100,000 population",
-                "Number",
-                ""
-              ]
-            },
-            "title": "Units"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Total Census metropolitan area",
-                "Total Non-Census metropolitan area",
                 "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
           },
           {
-            "name": "data.Type of cyber-related violation",
+            "name": "data.Type of case",
             "type": "string",
             "constraints": {
               "enum": [
-                "Against a person",
+                "Total cases",
+                "General civil cases",
+                "Family cases",
                 ""
               ]
             },
-            "title": "Type of cyber-related violation"
+            "title": "Type of case"
           },
           {
-            "name": "data.Cyber-related violation",
+            "name": "data.Elapsed time",
             "type": "string",
             "constraints": {
               "enum": [
-                "Luring a child via a computer",
-                "Non-consensual distribution of intimate images",
-                "Extortion",
-                "Criminal harassment",
-                "Indecent/Harassing communications",
-                "Uttering threats",
-                "Fraud",
-                "Identity theft",
-                "Identity fraud",
-                "Child pornography",
-                "Making or distribution of child pornography",
+                "Less than or equal to 3 months",
+                "Greater than 3 months to 6 months",
+                "Greater than 6 months to 12 months",
+                "Greater than 12 months to 24 months",
+                "Greater than 24 months",
+                "Unknown",
                 ""
               ]
             },
-            "title": "Cyber-related violation"
+            "title": "Number of months"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -96,5 +81,5 @@
   ],
   "profile": "data-package",
   "name": "16-4-1",
-  "title": "Incidence of cyber-crime"
+  "title": "Civil Court case completion time"
 }

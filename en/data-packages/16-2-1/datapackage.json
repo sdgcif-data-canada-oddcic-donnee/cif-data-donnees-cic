@@ -40,18 +40,28 @@
             "title": "Geography"
           },
           {
-            "name": "data.Index",
+            "name": "data.Violations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Violent crime severity index",
-                "Youth crime severity index",
-                "Youth violent crime severity index",
-                "Crime severity index",
+                "Homicide",
+                "Total other violations causing death",
+                "Attempted murder",
+                "Sexual assault, level 3, aggravated",
+                "Sexual assault, level 2, weapon or bodily harm",
+                "Sexual assault, level 1",
+                "Total sexual violations against children",
+                "Assault, level 3, aggravated",
+                "Assault, level 2, weapon or bodily harm",
+                "Assault, level 1",
+                "Total robbery",
+                "Uttering threats",
+                "Total other violent violations",
+                "Total violent Criminal Code violations",
                 ""
               ]
             },
-            "title": "Index"
+            "title": "Violations"
           },
           {
             "name": "GeoCode",
@@ -69,5 +79,5 @@
   ],
   "profile": "data-package",
   "name": "16-2-1",
-  "title": "Crime severity index"
+  "title": "Incidence of selected types of crime"
 }

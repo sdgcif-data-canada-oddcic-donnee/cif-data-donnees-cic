@@ -16,57 +16,24 @@
             "title": "Year"
           },
           {
-            "name": "data.Age at time of death",
+            "name": "data.Disease",
             "type": "string",
             "constraints": {
               "enum": [
-                "All ages",
-                "1 to 14 years",
-                "15 to 24",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 to 74 years",
-                "75 to 84 years",
-                "85 and over",
+                "Cancer",
+                "Chronic obstructive pulmonary disease",
+                "Creutzfeldt-Jakob",
+                "Dementia, including Alzheimer's disease",
+                "Diabetes",
+                "HIV and AIDS",
+                "Hypertension",
+                "Ischemic heart disease",
+                "Salmonella",
+                "Tuberculosis",
                 ""
               ]
             },
-            "title": "Age at time of death"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "data.Leading causes of death (ICD-10)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Malignant neoplasms",
-                "Diabetes mellitus",
-                "Alzheimer's disease",
-                "Diseases of heart",
-                "Cerebrovascular diseases",
-                "Influenza and pneumonia",
-                "Chronic lower respiratory diseases",
-                "Chronic liver disease and cirrhosis",
-                "Accidents (unintentional injuries)",
-                "Intentional self-harm (suicide)",
-                ""
-              ]
-            },
-            "title": "Leading causes of death"
+            "title": "Disease"
           },
           {
             "name": "Value",
@@ -79,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "3-10-1",
-  "title": "Mortality rate for selected causes of death"
+  "title": "Incidence of selected diseases"
 }

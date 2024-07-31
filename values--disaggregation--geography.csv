@@ -1,12 +1,33 @@
 Value,Disaggregation combinations using this value,Number of indicators
+"Abitibi-Témiscamingue, Quebec",1,1
+Alberta,556,9
+"Annapolis Valley, Nova Scotia",1,1
+Atlantic provinces,3,1
+Atlantic Region,256,1
+Atlantic region,178,1
+"Avalon Peninsula, Newfoundland and Labrador",1,1
+"Banff-Jasper-Rocky Mountain House and Athabasca-Grande Prairie-Peace River, Alberta",1,1
+"Bas-Saint-Laurent, Quebec",1,1
+British Columbia,308,8
+"Calgary, Alberta",1,1
+"Campbellton-Miramichi, New Brunswick",1,1
+"Camrose-Drumheller, Alberta",1,1
+"Canada, excluding the territories",1,1
+Canada,1429,7
+"Cape Breton, Nova Scotia",1,1
+"Capitale-Nationale, Quebec",1,1
+"Cariboo, British Columbia",1,1
+"Centre-du-Québec, Quebec",1,1
+"Chaudière-Appalaches, Quebec",1,1
+"Côte-Nord and Nord-du-Québec, Quebec",1,1
 "data.Abbotsford - Mission, British Columbia",1,1
-data.Alberta,16,3
+data.Alberta,9,2
 "data.Barrie, Ontario",1,1
 "data.Belleville, Ontario",1,1
 "data.Brantford, Ontario",1,1
-data.British Columbia,18,3
+data.British Columbia,9,2
 "data.Calgary, Alberta",1,1
-data.Canada,13,2
+data.Canada,7,1
 "data.Edmonton, Alberta",1,1
 "data.Gatineau, Quebec",1,1
 "data.Greater Sudbury, Ontario",1,1
@@ -18,38 +39,103 @@ data.Canada,13,2
 "data.Kitchener - Cambridge - Waterloo, Ontario",1,1
 "data.Lethbridge, Alberta",1,1
 "data.London, Ontario",1,1
-data.Manitoba,17,3
+data.Manitoba,9,2
 "data.Moncton, New Brunswick",1,1
 "data.Montréal, Quebec",1,1
-data.New Brunswick,16,3
-data.Newfoundland and Labrador,18,3
-data.Northern and Rural Manitoba,1,1
-data.Northwest Territories,12,2
-data.Nova Scotia,18,3
-data.Nunavut,8,2
-data.Ontario,18,3
+data.New Brunswick,9,2
+data.Newfoundland and Labrador,9,2
+data.Northwest Territories,8,1
+data.Nova Scotia,9,2
+data.Nunavut,6,1
+data.Ontario,9,2
 "data.Ottawa, Ontario",1,1
 "data.Peterborough, Ontario",1,1
-data.Prince Edward Island,15,3
-data.Quebec,17,3
+data.Prince Edward Island,9,2
+data.Quebec,9,2
 "data.Québec, Quebec",1,1
 "data.Regina, Saskatchewan",1,1
 "data.Saguenay, Quebec",1,1
 "data.Saint John, New Brunswick",1,1
-data.Saskatchewan,18,3
+data.Saskatchewan,9,2
 "data.Saskatoon, Saskatchewan",1,1
 "data.Sherbrooke, Quebec",1,1
 "data.St. Catharines - Niagara, Ontario",1,1
 "data.St. John's, Newfoundland and Labrador",1,1
-data.Territories,4,1
 "data.Thunder Bay, Ontario",1,1
 "data.Toronto, Ontario",1,1
 "data.Trois-Rivières, Quebec",1,1
 "data.Vancouver, British Columbia",1,1
 "data.Victoria, British Columbia",1,1
-data.Whitehorse Yukon,1,1
 "data.Windsor, Ontario",1,1
-data.Winnipeg Manitoba,1,1
 "data.Winnipeg, Manitoba",1,1
-data.Yellowknife Northwest Territories,1,1
-data.Yukon,12,2
+data.Yukon,8,1
+Eastern and central provinces,57,1
+"Edmonton, Alberta",1,1
+"Edmundston-Woodstock, New Brunswick",1,1
+"Estrie, Quebec",1,1
+"Fredericton-Oromocto, New Brunswick",1,1
+"Gaspésie-Îles-de-la-Madeleine, Quebec",1,1
+"Halifax, Nova Scotia",1,1
+"Hamilton-Niagara Peninsula, Ontario",1,1
+"Interlake, Manitoba",1,1
+"Kingston-Pembroke, Ontario",1,1
+"Kitchener-Waterloo-Barrie, Ontario",1,1
+"Kootenay, British Columbia",1,1
+"Lanaudière, Quebec",1,1
+"Laurentides, Quebec",1,1
+"Laval, Quebec",1,1
+"Lethbridge-Medicine Hat, Alberta",1,1
+"London, Ontario",1,1
+"Lower Mainland-Southwest, British Columbia",1,1
+Manitoba and Saskatchewan,10,1
+Manitoba,139,8
+"Mauricie, Quebec",1,1
+"Moncton-Richibucto, New Brunswick",1,1
+"Montréal, Quebec",11,1
+"Montérégie, Quebec",1,1
+"Muskoka-Kawarthas, Ontario",1,1
+New Brunswick,140,8
+Newfoundland and Labrador,139,8
+"North Coast and Nechako, British Columbia",1,1
+"North Shore, Nova Scotia",1,1
+"Northeast, British Columbia",1,1
+"Northeast, Ontario",1,1
+"Northwest, Ontario",1,1
+Northwest Territories,23,5
+Nova Scotia,138,8
+Nunavut,20,5
+Ontario,563,9
+"Ottawa, Ontario",1,1
+"Outaouais, Quebec",1,1
+"Parklands and Northern, Manitoba",1,1
+Prairie provinces,3,1
+Prairie region,225,1
+"Prince Albert and Northern, Saskatchewan",1,1
+Prince Edward Island,140,8
+Quebec,564,9
+"Red Deer, Alberta",1,1
+"Regina-Moose Mountain, Saskatchewan",1,1
+Rest of Canada excluding Alberta,227,1
+Rest of Canada,252,1
+"Saguenay-Lac-Saint-Jean, Quebec",1,1
+"Saint John-St. Stephen, New Brunswick",1,1
+Saskatchewan,139,8
+"Saskatoon-Biggar, Saskatchewan",1,1
+"South Central and North Central, Manitoba",1,1
+"South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador",1,1
+"Southeast, Manitoba",1,1
+"Southern, Nova Scotia",1,1
+"Southwest, Manitoba",1,1
+"Stratford-Bruce Peninsula, Ontario",1,1
+"Swift Current-Moose Jaw, Saskatchewan",1,1
+"Thompson-Okanagan, British Columbia",1,1
+"Toronto, Ontario",11,1
+"Vancouver, British Columbia",10,1
+"Vancouver Island and Coast, British Columbia",1,1
+"West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador",1,1
+Western provinces,57,1
+"Windsor-Sarnia, Ontario",1,1
+"Winnipeg, Manitoba",1,1
+"Wood Buffalo-Cold Lake, Alberta",1,1
+"Yorkton-Melville, Saskatchewan",1,1
+Yukon,23,5

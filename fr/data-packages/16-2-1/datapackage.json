@@ -40,18 +40,28 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Index",
+            "name": "data.Violations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice des crimes avec violence",
-                "Indice de gravité de la criminalité chez les jeunes",
-                "Indice des crimes avec violence chez les jeunes",
-                "Indice de gravité de la criminalité",
+                "Homicide",
+                "Total des autres infractions entraînant la mort",
+                "Tentative de meurtre",
+                "Agression sexuelle grave (niveau 3)",
+                "Agression sexuelle, niveau 2, armée ou causant des lésions corporelles",
+                "Agression sexuelle de niveau 1",
+                "Total des infractions sexuelles contre les enfants",
+                "Voies de fait graves (niveau 3)",
+                "Voies de fait armées ou causant des lésions corporelles (niveau 2)",
+                "Voies de fait simples (niveau 1)",
+                "Total des vols qualifiés",
+                "Menaces",
+                "Total des autres infractions avec violence",
+                "Total des infractions de violence prévues au Code criminel",
                 ""
               ]
             },
-            "title": "Indice"
+            "title": "Infractions"
           },
           {
             "name": "GeoCode",
@@ -69,5 +79,5 @@
   ],
   "profile": "data-package",
   "name": "16-2-1",
-  "title": "Indice de gravité de la criminalité"
+  "title": "Incidence of selected types of crime"
 }

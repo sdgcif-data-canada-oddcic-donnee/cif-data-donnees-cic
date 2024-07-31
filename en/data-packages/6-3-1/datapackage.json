@@ -16,19 +16,32 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Water use growth rate",
+                "Water use per capita growth rate",
+                "Total water use",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
+                "Percentage",
                 "Cubic metres",
-                "Growth rate",
                 ""
               ]
             },
             "title": "Units"
           },
           {
-            "name": "data.Sector",
+            "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [

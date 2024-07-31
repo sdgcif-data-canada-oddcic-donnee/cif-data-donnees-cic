@@ -19,57 +19,45 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon",
                 ""
               ]
             }
           },
           {
-            "name": "data.Selected diseases",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Hepatitis B",
-                "data.Human Papillomavirus (HPV)",
-                "data.Diphtheria",
-                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "data.Haemophilus influenzae type B (Hib)",
-                "data.Measles",
-                "data.Meningococcal type C",
-                "data.Mumps",
-                "data.Pertussis (whooping cough)",
-                "data.Polio",
-                "data.Rubella",
-                "data.Tetanus",
-                "data.Pneumococcal",
-                "data.Rotavirus",
-                "data.Varicella",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 18 years and over",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.by 14 years of age",
-                "data.by 17 years of age",
-                "data.by 2 years of age",
-                "data.by 7 years of age",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             }
@@ -88,5 +76,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-1",
-  "title": "Vaccination rates for selected diseases"
+  "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
 }

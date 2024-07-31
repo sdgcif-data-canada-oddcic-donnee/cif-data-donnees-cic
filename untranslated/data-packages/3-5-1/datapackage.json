@@ -15,56 +15,36 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
+                "Both sexes",
+                "Males",
+                "Females",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                "data.Total, 18 years and over",
+                "Ages 5 to 17",
+                "Ages 6 to 17",
+                "Ages 18 to 79",
+                "Ages 5 to 11",
+                "Ages 6 to 11",
+                "Ages 12 to 17",
+                "Ages 18 to 39",
+                "Ages 40 to 59",
+                "Ages 60 to 79",
+                "Ages 18 to 64",
+                "Ages 65 to 79",
                 ""
               ]
             }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",
@@ -76,5 +56,5 @@
   ],
   "profile": "data-package",
   "name": "3-5-1",
-  "title": "Percentage of Canadians who are satisfied or very satisfied with their life"
+  "title": "Proportion of Canadians meeting the 2020 Canadian physical activity guidelines"
 }

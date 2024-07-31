@@ -16,27 +16,42 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
+                "Par groupe d'espèces",
+                "Par système",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Series"
+          },
+          {
+            "name": "Species group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice des oiseaux",
+                "Indice des mammifères",
+                "Indice des poissons",
+                ""
+              ]
+            },
+            "title": "Groupe d'espèces"
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice terrestre",
+                "Indice d'eau douce",
+                "Indice marin",
+                ""
+              ]
+            },
+            "title": "Système"
           },
           {
             "name": "Value",
@@ -49,5 +64,5 @@
   ],
   "profile": "data-package",
   "name": "15-3-1",
-  "title": "Proportion of terrestrial (land and freshwater) area conserved"
+  "title": "Canadian species index"
 }

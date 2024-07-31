@@ -16,19 +16,32 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux de croissance de l’utilisation de l’eau",
+                "Taux de croissance de l’utilisation de l’eau par habitant",
+                "Utilisation de l’eau totale",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
+                "Pourcentage",
                 "Mètres cubes",
-                "Taux de croissance",
                 ""
               ]
             },
             "title": "Unités"
           },
           {
-            "name": "data.Sector",
+            "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [
@@ -50,5 +63,5 @@
   ],
   "profile": "data-package",
   "name": "6-3-1",
-  "title": "Water use growth rate"
+  "title": "Taux de croissance de l’utilisation de l’eau"
 }

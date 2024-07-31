@@ -16,60 +16,38 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, 12 years and over",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "data.Total, 18 years and over",
-                ""
-              ]
-            },
-            "title": "Age group"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
+                "Both sexes",
                 "Males",
                 "Females",
-                "Both sexes",
                 ""
               ]
             },
             "title": "Sex"
           },
           {
-            "name": "GeoCode",
+            "name": "Age group",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "Ages 5 to 17",
+                "Ages 6 to 17",
+                "Ages 18 to 79",
+                "Ages 5 to 11",
+                "Ages 6 to 11",
+                "Ages 12 to 17",
+                "Ages 18 to 39",
+                "Ages 40 to 59",
+                "Ages 60 to 79",
+                "Ages 18 to 64",
+                "Ages 65 to 79",
+                ""
+              ]
+            },
+            "title": "Age group"
           },
           {
             "name": "Value",
@@ -82,5 +60,5 @@
   ],
   "profile": "data-package",
   "name": "3-5-1",
-  "title": "Percentage of Canadians who are satisfied or very satisfied with their life"
+  "title": "Proportion of Canadians meeting the 2020 Canadian physical activity guidelines"
 }
