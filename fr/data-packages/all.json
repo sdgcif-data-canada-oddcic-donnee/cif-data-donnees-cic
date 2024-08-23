@@ -279,6 +279,84 @@
       "title": "Proportion of the population reporting discrimination or unfair treatment"
     },
     {
+      "path": "12-4-1/data.csv",
+      "name": "12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Product category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Matériaux de construction",
+                "Équipements électriques et électroniques",
+                "Matériel électronique",
+                "Gros appareils électroménagers",
+                "Autres équipements électriques et électroniques",
+                "Emballages",
+                "Bouteilles",
+                "Films",
+                "Rigides non-bouteilles",
+                "Autres produits d'emballage",
+                "Films agricoles",
+                "Textiles",
+                "Véhicules",
+                "Autres produits",
+                "Total, toutes les catégories de produits",
+                ""
+              ]
+            },
+            "title": "Catégorie de produits"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion of discarded plastic leaked permanently into the environment"
+    },
+    {
       "path": "15-2-1/data.csv",
       "name": "15-2-1",
       "profile": "tabular-data-resource",
@@ -750,7 +828,7 @@
           }
         ]
       },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
+      "title": "Proportion of commuters using sustainable transportation"
     },
     {
       "path": "16-5-1/data.csv",
@@ -1035,7 +1113,7 @@
                 "Mondial",
                 "Afrique",
                 "Asie",
-                "Amerique",
+                "Amérique",
                 "Europe",
                 "Moyen-Orient",
                 "Océanie",
@@ -1240,9 +1318,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Persons who are asset resilient for at least one month",
-                "data.Persons who are asset resilient for at least six months",
-                "data.Persons who are asset resilient for at least three months",
+                "Personnes en situation de résilience des actifs pour au moins 1 mois",
+                "Personnes en situation de résilience des actifs pour au moins 6 mois",
+                "Personnes en situation de résilience des actifs pour au moins 3 mois",
                 ""
               ]
             },
@@ -1720,71 +1798,156 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Nouveau-Brunswick",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "Sex at birth",
             "type": "string",
             "constraints": {
               "enum": [
                 "Homme",
                 "Femme",
-                "Les deux sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sexe à la naissance"
           },
           {
-            "name": "data.Grade",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les niveaux",
-                "7e à 9e année",
-                "10e à 12e année",
-                "De la 1re à la 3e année du secondaire",
-                "De la 4re à la 5e année du secondaire",
-                "6e à 9e année",
+                "Homme",
+                "Femme",
                 ""
               ]
             },
-            "title": "Niveaux de scolarité"
+            "title": "Genre"
           },
           {
-            "name": "data.Type of e-cigarettes",
+            "name": "Indigenous status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux types",
-                "Avec nicotine",
-                "Sans nicotine",
+                "Identité autochtone",
+                "Identité non autochtone",
                 ""
               ]
             },
-            "title": "Type de cigarettes"
+            "title": "Statut d'autochtone"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sud-Asiatique",
+                "Chinois",
+                "Noirs",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne non immigrante",
+                "Personne immigrante",
+                ""
+              ]
+            },
+            "title": "Statut d'immigration"
+          },
+          {
+            "name": "Education level of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Niveau d'éducation du parent ou du tuteur légal"
+          },
+          {
+            "name": "Education level of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Niveau d'éducation du conjoint du parent ou du tuteur légal"
+          },
+          {
+            "name": "Labour market status of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Statut du parent ou du tuteur légal sur le marché du travail"
+          },
+          {
+            "name": "Labour market status of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Statut du conjoint du parent ou du tuteur légal sur le marché du travail"
           },
           {
             "name": "GeoCode",
@@ -1798,7 +1961,7 @@
           }
         ]
       },
-      "title": "Prevalence of vaping among youth"
+      "title": "Percentage of youth (aged 12 to 17) who have used an e-cigarette in the past 30 days"
     },
     {
       "path": "16-3-1/data.csv",
@@ -1973,7 +2136,7 @@
           }
         ]
       },
-      "title": "Percentage of the population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong"
+      "title": "Proportion of the population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong"
     },
     {
       "path": "13-2-1/data.csv",
@@ -1991,39 +2154,49 @@
             "title": "Année"
           },
           {
-            "name": "data.Event type",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Biologique",
-                "Géologique",
-                "Météorologique - hydrologique",
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
-            "title": "Type d'événement"
+            "title": "Sexe"
           },
           {
-            "name": "data.Event sub-type",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Épidémie",
-                "Tremblement de terre",
-                "Inondation",
-                "Ouragan / ouragan / tempête tropicale",
-                "Tempête-non précisée/autre",
-                "Onde de tempête",
-                "Orages et orages graves",
-                "Tornade",
-                "Feu de forêt",
-                "Tempête hivernale",
-                "Éboulement",
-                "Épisode de chaleur",
+                "Total, tous les âges",
+                "Moins d'un an",
+                "1 à 4 ans",
+                "5 à 9 ans",
+                "10 à 14 ans",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                "30 à 34 ans",
+                "35 à 39 ans",
+                "40 à 44 ans",
+                "45 à 49 ans",
+                "50 à 54 ans",
+                "55 à 59 ans",
+                "60 à 64 ans",
+                "65 à 69 ans",
+                "70 à 74 ans",
+                "75 à 79 ans",
+                "80 à 84 ans",
+                "85 à 89 ans",
+                "90 ans et plus",
+                "Âge, non déclaré",
                 ""
               ]
             },
-            "title": "Événement"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
@@ -2032,7 +2205,7 @@
           }
         ]
       },
-      "title": "Frequency of selected natural disasters"
+      "title": "Deaths due to exposure to excessive natural heat"
     },
     {
       "path": "7-3-1/data.csv",
@@ -2278,36 +2451,99 @@
             "title": "Année"
           },
           {
-            "name": "data.Select housing vulnerable populations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les ménages",
-                "Total, ménages comptant une seule famille monoparentale",
-                "Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+",
-                "Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+",
-                "Total, ménages composés d'une seule personne",
-                "Hommes+ vivant seuls",
-                "Femmes+ vivant seules",
-                "Personnes de référence qui ont vécu une période d'itinérance",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Ontario/Quebec",
                 ""
               ]
             },
-            "title": "Certaines populations vulnérables en matière de logement"
+            "title": "Géographie"
           },
           {
-            "name": "data.Living with housing problems",
+            "name": "Geographic location",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vivant dans un logement inabordable",
-                "Vivant dans un logement de taille non convenable",
-                "Vivant dans un logement de qualité non convenable",
-                "Ayant des besoins impérieux en matière de logement",
+                "Canada",
+                "Provinces et territoires",
+                "Régions métropolitaines de recensement",
+                "Agglomérations de recensement",
+                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
+                "Grands centres de population urbains",
+                "Moyens centres de population",
+                "Petits centres de population",
+                "Régions rurales",
                 ""
               ]
             },
-            "title": "Éprouvant des problèmes de logement"
+            "title": "Situation géographique"
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, régions métropolitaines de recensement",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Halifax, Nouvelle-Écosse",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Lethbridge, Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, Colombie-Britannique",
+                "Autres régions métropolitaines de recensement, Québec",
+                "Autres régions métropolitaines de recensement, Ontario",
+                "Autres régions métropolitaines de recensement, Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Régions métropolitaines de recensement sélectionnées"
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Propriétaire",
+                "Propriétaire qui est un accédant à la propriété",
+                "Propriétaire qui n'est pas un accédant à la propriété",
+                "Locataire",
+                "Locataire n'habitant pas dans un logement social et abordable",
+                "Locataire habitant dans un logement social et abordable",
+                "Total, mode d'occupation",
+                ""
+              ]
+            },
+            "title": "Mode d'occupation"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -2845,7 +3081,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2867,7 +3103,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of materials diverted",
+            "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2884,10 +3120,10 @@
                 "Textiles",
                 "Pneus",
                 "Déchets provenant de la construction, de la rénovation et de la démolition",
-                "data.All organic materials",
-                "data.Food waste and source separated organics",
-                "data.Leaf and yard waste",
-                "data.Other organic materials",
+                "Toutes les matières organiques",
+                "Déchets de nourriture et matières organiques séparées à la source",
+                "Feuilles et résidus de jardin",
+                "Autres matières organiques",
                 "Autres matières",
                 ""
               ]
@@ -2895,7 +3131,7 @@
             "title": "Type de matières récupérées"
           },
           {
-            "name": "data.Sources of materials prepared for recycling",
+            "name": "Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2937,7 +3173,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3682,7 +3918,59 @@
           }
         ]
       },
-      "title": "Percentage of the population living in areas where air pollutants concentrations are less or equal to the 2020 Canadian Ambient Air Quality Standards"
+      "title": "Percentage of the population living in areas where air pollutant concentrations are less than or equal to the 2020 Canadian Ambient Air Quality Standards"
+    },
+    {
+      "path": "13-4-1/data.csv",
+      "name": "13-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Flood protection infrastructure spending"
     },
     {
       "path": "14-1-1/data.csv",
@@ -3780,7 +4068,6 @@
               "enum": [
                 "Autochtone",
                 "Première Nation (Indien de l'Amérique du Nord)",
-                "Métis",
                 "Inuk (Inuit)",
                 "Personne non autochtone",
                 ""
@@ -4020,6 +4307,63 @@
         ]
       },
       "title": "Gross domestic expenditure on research and development intensity"
+    },
+    {
+      "path": "17-3-1/data.csv",
+      "name": "17-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les régions",
+                "Europe",
+                "Amérique du Nord",
+                "Afrique",
+                "Amérique du Sud",
+                "Amérique Centrale",
+                "Antilles",
+                "Moyen-Orient",
+                "Océanie",
+                "Asie",
+                ""
+              ]
+            },
+            "title": "Région"
+          },
+          {
+            "name": "Goods and services (products)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Produits environnementaux",
+                "Produits de technologies propres",
+                "Produits environnementaux et de technologies propres",
+                ""
+              ]
+            },
+            "title": "Biens et services (produits)"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Exports of environmental and clean technology goods and services to developing countries"
     },
     {
       "path": "6-2-1/data.csv",
@@ -4444,7 +4788,48 @@
             "title": "Année"
           },
           {
-            "name": "data.Stock group",
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage",
+                "Nombre de stocks",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Zone saine",
+                "Zone de prudence",
+                "Zone critique",
+                "État incertain",
+                "Zone de prudence et la zone saine",
+                ""
+              ]
+            },
+            "title": "État des stocks"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Pacifique",
+                "Arctique",
+                "Atlantique",
+                ""
+              ]
+            },
+            "title": "Région"
+          },
+          {
+            "name": "Stock group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4468,7 +4853,7 @@
           }
         ]
       },
-      "title": "Proportion of fish stocks that are sustainably harvested"
+      "title": "Proportion of key fish stocks in the Cautious and Healthy zones"
     },
     {
       "path": "2-1-1/data.csv",
@@ -4864,16 +5249,13 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
                 "Colombie-Britannique et les Territoires",
                 "Manitoba",
                 "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
                 "Ontario",
                 "Île-du-Prince-Édouard",
                 "Québec",
@@ -5613,11 +5995,10 @@
                 "Résidents non permanents",
                 "Total de la population des minorités visibles",
                 "Pas une minorité visible",
-                "data.Total Aboriginal identity",
+                "Total identité autochtone",
                 "Première Nation (Indien de l'Amérique du Nord)",
-                "Métis",
                 "Inuk (Inuit)",
-                "data.Non-Aboriginal identity",
+                "Identité non autochtone",
                 "Total, toutes les personnes",
                 ""
               ]
@@ -5775,15 +6156,28 @@
             "title": "Année"
           },
           {
-            "name": "data.Estimates",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Croissance depuis 2016",
+                "Nombre d'usagers des refuges en situation d'itinérance chronique",
+                "Changement en pourcentage du nombre d'usagers des refuges en situation d'itinérance chronique par rapport au niveau de référence de 2016",
                 ""
               ]
             },
-            "title": "Estimation"
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre",
+                "Pourcentage",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",
@@ -5792,7 +6186,7 @@
           }
         ]
       },
-      "title": "Growth rate of people experiencing chronic homelessness"
+      "title": "(a) Number of shelter users experiencing chronic homelessness; and (b) percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline"
     },
     {
       "path": "3-11-1/data.csv",

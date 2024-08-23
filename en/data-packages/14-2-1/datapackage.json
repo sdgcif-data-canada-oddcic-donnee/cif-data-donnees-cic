@@ -16,7 +16,48 @@
             "title": "Year"
           },
           {
-            "name": "data.Stock group",
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "Number of stocks",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Healthy zone",
+                "Cautious zone",
+                "Critical zone",
+                "Status uncertain",
+                "Healthy and cautious zones",
+                ""
+              ]
+            },
+            "title": "Stock status"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Pacific",
+                "Arctic",
+                "Atlantic",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Stock group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -44,5 +85,5 @@
   ],
   "profile": "data-package",
   "name": "14-2-1",
-  "title": "Proportion of fish stocks that are sustainably harvested"
+  "title": "Proportion of key fish stocks in the Cautious and Healthy zones"
 }
