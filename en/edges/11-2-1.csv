@@ -1,4 +1,5 @@
 From,To
 Geography,Geographic location
-Geographic location,Tenure
+Geography,Select housing-vulnerable populations
+Tenure,Geographic location
 Tenure,Selected census metropolitan areas
