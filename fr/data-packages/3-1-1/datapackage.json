@@ -41,8 +41,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
+                "Total, 18 ans et plus",
                 "18 à 34 ans",
                 "35 à 49 ans",
                 "50 à 64 ans",
@@ -64,6 +63,34 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Premier quintile",
+                "Deuxième quintile",
+                "Troisième quintile",
+                "Quatrième quintile",
+                "Cinquième quintile",
+                ""
+              ]
+            },
+            "title": "Revenu du ménage"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études secondaires partielles",
+                "Diplôme d'études secondaires, aucune étude postsecondaire",
+                "Certificat/diplôme d'études postsecondaires ou grade universitaire",
+                ""
+              ]
+            },
+            "title": "Plus haut niveau de scolarité"
           },
           {
             "name": "GeoCode",

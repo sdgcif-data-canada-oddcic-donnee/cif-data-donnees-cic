@@ -15,49 +15,105 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
+                "18 to 34 years",
+                "35 to 49 years",
+                "50 to 64 years",
+                "65 years and over",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First quintile",
+                "Second quintile",
+                "Third quintile",
+                "Fourth quintile",
+                "Fifth quintile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than secondary school graduation",
+                "Secondary school graduation, no post-secondary education",
+                "Post-secondary certificate/diploma or university degree",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Visible minority",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrants",
+                "Immigrants",
+                "Admitted to Canada in the last 10 years",
+                "Admitted to Canada more than 10 years ago",
                 ""
               ]
             }

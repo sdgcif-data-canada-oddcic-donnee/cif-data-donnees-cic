@@ -1,1 +1,1 @@
-{"From":["data.Geography","data.Age group"],"To":["data.Age group","data.Sex"]}
+{"From":["Geography","Geography","Geography","Age group","Age group","Visible minority"],"To":["Age group","Sex","Visible minority","Household income","Highest level of education","Immigration status"]}
