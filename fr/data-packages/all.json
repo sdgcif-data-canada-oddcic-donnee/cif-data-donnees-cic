@@ -1927,15 +1927,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "St. John's, Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
                 "Halifax, Nouvelle-Écosse",
                 "Nouveau-Brunswick",
+                "Fredericton, Nouveau-Brunswick",
                 "Moncton, Nouveau-Brunswick",
                 "Saint John, Nouveau-Brunswick",
                 "Québec",
+                "Drummondville, Québec",
                 "Montréal, Québec",
                 "Ottawa - Gatineau (partie du Québec), Québec",
                 "Québec, Québec",
@@ -1944,7 +1947,7 @@
                 "Trois-Rivières, Québec",
                 "Ontario",
                 "Barrie, Ontario",
-                "Belleville, Ontario",
+                "Belleville - Quinte West, Ontario",
                 "Brantford, Ontario",
                 "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
@@ -1968,18 +1971,63 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Lethbridge, Alberta",
+                "Red Deer, Alberta",
                 "Colombie-Britannique",
                 "Abbotsford - Mission, Colombie-Britannique",
+                "Chilliwack, Colombie-Britannique",
+                "Kamloops, Colombie-Britannique",
                 "Kelowna, Colombie-Britannique",
+                "Nanaimo, Colombie-Britannique",
                 "Vancouver, Colombie-Britannique",
                 "Victoria, Colombie-Britannique",
                 "Yukon",
                 "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, emplacement",
+                "Urbain",
+                "Rurale",
+                ""
+              ]
+            },
+            "title": "Emplacement"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, genre",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Demographic and socio-economic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0 à 14 ans",
+                "15 à 64 ans",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "65 ans et plus",
+                "Total - Groupes d'âge de la population - Données intégrales (100 %)",
+                ""
+              ]
+            },
+            "title": "Démographique and socio-économique"
           },
           {
             "name": "GeoCode",
@@ -2088,7 +2136,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2105,10 +2153,24 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Canada",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Type of municipality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les municipalités",
+                "Toutes les municipalités urbaines",
+                "Toutes les municipalités rurales",
+                ""
+              ]
+            },
+            "title": "Type de municipalité"
           },
           {
             "name": "GeoCode",
@@ -5359,7 +5421,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5383,32 +5445,42 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Core public infrastructure assets",
+            "name": "Core public infrastructure assets",
             "type": "string",
             "constraints": {
               "enum": [
-                "Eau potable",
-                "Eaux pluviales",
-                "Eaux usées",
-                "Déchets solides",
+                "Actifs de transport en commun",
+                "Actifs relatifs à l'eau potable",
+                "Actifs relatifs aux eaux pluviales",
+                "Actifs relatifs aux eaux usées",
+                "Actifs relatifs aux déchets solides",
+                "Routes",
+                "Ponts et tunnels",
+                "Logement social et abordable",
+                "Installations culturelles, sportives et de loisirs",
+                "Refuges et actifs relatifs aux services aux sans-abri",
+                "Actifs de transport actif",
                 ""
               ]
             },
             "title": "Actifs d'infrastructures publiques essentielles"
           },
           {
-            "name": "data.Type of municipality by population size",
+            "name": "Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
                 "Toutes les municipalités",
                 "Toutes les municipalités urbaines",
-                "Municipalités urbaines, population de 1 à 4 999",
-                "Municipalités urbaines, population de 5 000 à 29 999",
-                "Municipalités urbaines, population de 30 000 et plus",
+                "Municipalités urbaines, population moins de 5 000",
+                "Municipalités urbaines, population plus de 5 000 à 30 000",
+                "Municipalités urbaines, population 30 000 et plus",
                 "Toutes les municipalités rurales",
-                "Municipalités rurales, population 1 à 4 999",
-                "Municipalités rurales, population 5 000 et plus",
+                "Municipalités rurales, population moins de 5 000",
+                "Municipalités rurales, population 5 000 et plus",
+                "Municipalités urbaines, population plus de 30 000 à 100 000",
+                "Municipalités urbaines, population plus de 100 000 à 200 000",
+                "Municipalités urbaines, population 200 000 et plus",
                 ""
               ]
             },
@@ -6046,8 +6118,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Milieu rural",
-                "Milieu urbain",
+                "Rurale",
+                "Urbain",
                 ""
               ]
             },
